@@ -29,9 +29,20 @@ public class UserService {
         return this.userRepository.findAll();
     }
 
+    public User getUserByUsername(String username) { return this.userRepository.findByUsername(username); }
+
+    public User loginUser(String username, String password) {
+        User temp = this.userRepository.findByUsername(username);
+        if (temp == null) throw new UserNotFoundException(username);
+        if (temp.getPassword().equals(password)) {
+            temp.setStatus(UserStatus.ONLINE);
+            return temp;
+        }
+        else throw new PasswordNotValidException(username);
+    }
+
     public User createUser(User newUser) {
         newUser.setToken(UUID.randomUUID().toString());
-        newUser.setStatus(UserStatus.ONLINE);
         userRepository.save(newUser);
         log.debug("Created Information for User: {}", newUser);
         return newUser;

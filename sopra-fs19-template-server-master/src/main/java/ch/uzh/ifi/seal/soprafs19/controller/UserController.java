@@ -22,6 +22,11 @@ public class UserController {
         return service.getUsers();
     }
 
+    @GetMapping("/users/{username}")
+    User one(@PathVariable String username, @RequestParam() String pw) {
+        return this.service.loginUser(username, pw);
+    }
+
     @PostMapping("/users")
     User createUser(@RequestBody User newUser) {
         return this.service.createUser(newUser);
