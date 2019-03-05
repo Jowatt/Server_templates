@@ -43,6 +43,7 @@ public class UserService {
     }
 
     public User createUser(User newUser) {
+        if (userRepository.findByUsername(newUser.getUsername()) != null) throw new UserAlreadyExistsException(newUser.getUsername());
         newUser.setToken(UUID.randomUUID().toString());
         newUser.setStatus(UserStatus.OFFLINE);
         userRepository.save(newUser);
