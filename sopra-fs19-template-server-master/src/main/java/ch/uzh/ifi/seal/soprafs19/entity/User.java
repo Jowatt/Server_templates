@@ -74,11 +74,11 @@ public class User implements Serializable {
 		this.status = status;
 	}
 
-	public getPassword() {return password;}
+	public String getPassword() {return password;}
 
-	public void setStatus(UserStatus status) {
-		this.status = status;
-	}
+	public void setStatus(UserStatus status) { this.status = status;}
+	
+	public void setPassword(String password) {this.password = password;}
 
 	@Override
 	public boolean equals(Object o) {
