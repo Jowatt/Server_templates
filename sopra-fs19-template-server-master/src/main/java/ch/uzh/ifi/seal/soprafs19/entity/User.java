@@ -26,9 +26,11 @@ public class User implements Serializable {
 	private String username;
 
 	@Column (nullable = false)
+	@JsonIgnor
 	private String password;
 	
-	@Column(nullable = false, unique = true) 
+	@Column(nullable = false, unique = true)
+	@JsonIgnor
 	private String token;
 
 	@Column(nullable = false)

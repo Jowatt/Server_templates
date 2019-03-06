@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce0e4a54-73cd-4bc8-8859-b78482d60ebe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server_templates.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/entity/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,7 +32,49 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="32" column="104" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/exceptions/UserNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/exceptions/UserAlreadyExistsException.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/exceptions/PasswordNotValidException.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/constant/UserStatus.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -51,6 +86,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/service/UserService.java" />
+        <option value="$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/entity/User.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
@@ -177,6 +220,34 @@
               <item name="ifi" type="462c0819:PsiDirectoryNode" />
               <item name="seal" type="462c0819:PsiDirectoryNode" />
               <item name="soprafs19" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Server_templates" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server_templates" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="sopra-fs19-template-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ch" type="462c0819:PsiDirectoryNode" />
+              <item name="uzh" type="462c0819:PsiDirectoryNode" />
+              <item name="ifi" type="462c0819:PsiDirectoryNode" />
+              <item name="seal" type="462c0819:PsiDirectoryNode" />
+              <item name="soprafs19" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Server_templates" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server_templates" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="sopra-fs19-template-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ch" type="462c0819:PsiDirectoryNode" />
+              <item name="uzh" type="462c0819:PsiDirectoryNode" />
+              <item name="ifi" type="462c0819:PsiDirectoryNode" />
+              <item name="seal" type="462c0819:PsiDirectoryNode" />
+              <item name="soprafs19" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -190,7 +261,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551905742012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551908716764" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,15 +304,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551898729820</updated>
-      <workItem from="1551898732547" duration="1152000" />
+      <workItem from="1551898732547" duration="3198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1152000" />
+    <option name="totallyTimeSpent" value="3198000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -294,8 +366,38 @@
     <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/Application.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/constant/UserStatus.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="104" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/exceptions/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/exceptions/UserAlreadyExistsException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/exceptions/PasswordNotValidException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sopra-fs19-template-server-master/src/main/java/ch/uzh/ifi/seal/soprafs19/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
