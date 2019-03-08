@@ -58,7 +58,8 @@ public class UserController {
     String logout(@RequestBody AuthorizationCredentials cred) {
         return this.service.logoutUser(cred.token);
     }
-    @PostMapping("/users/register")
+
+    @PostMapping("/users")
     User createUser(@RequestBody User newUser) {
         return this.service.createUser(newUser);
     }
